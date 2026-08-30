@@ -1,0 +1,32 @@
+# Root
+.env
+.DS_Store
+Thumbs.db
+*.log
+
+# Backend
+backend/venv/
+backend/.env
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/temp_repos/
+backend/reports/
+backend/cache/
+backend/.pytest_cache/
+backend/*.egg-info/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local-only docs (not published)
+CLIENT_GUIDE.md
+
+frontend/*.tsbuildinfo
